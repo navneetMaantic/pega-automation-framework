@@ -1,5 +1,3 @@
 Manifest-Version: 1.0
-Built-By: User
-Build-Jdk: 17.0.5
-Created-By: Maven Integration for Eclipse
+Main-Class: com.maantic.automation.base.Main
 
