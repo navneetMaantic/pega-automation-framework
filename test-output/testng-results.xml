@@ -1,23 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="4" total="10" passed="6" failed="0" skipped="0">
+<testng-results ignored="0" total="2" passed="1" failed="0" skipped="1">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-01-05T16:55:36 IST" name="All Test Suite" finished-at="2024-01-05T17:00:35 IST" duration-ms="299602">
+  <suite started-at="2024-04-22T15:53:29 IST" name="All Test Suite" finished-at="2024-04-22T15:53:36 IST" duration-ms="7337">
     <groups>
       <group name="Sanity">
-        <method signature="GBTActivityTest2.getURL(java.util.Map)[pri:1, instance:com.maantic.automation.tests.GBTActivityTest2@1a6f2363]" name="getURL" class="com.maantic.automation.tests.GBTActivityTest2"/>
-        <method signature="GBTDecisionTableTest2.getURL(java.util.Map)[pri:1, instance:com.maantic.automation.tests.GBTDecisionTableTest2@34abdee4]" name="getURL" class="com.maantic.automation.tests.GBTDecisionTableTest2"/>
-        <method signature="GBTSLATest2.getURL(java.util.Map)[pri:1, instance:com.maantic.automation.tests.GBTSLATest2@52350abb]" name="getURL" class="com.maantic.automation.tests.GBTSLATest2"/>
+        <method signature="GBTActivityTest2.getURL(java.util.Map)[pri:1, instance:com.maantic.automation.tests.GBTActivityTest2@bc57b40]" name="getURL" class="com.maantic.automation.tests.GBTActivityTest2"/>
       </group> <!-- Sanity -->
       <group name="Regression">
-        <method signature="GBTActivityTest2.getURL(java.util.Map)[pri:1, instance:com.maantic.automation.tests.GBTActivityTest2@1a6f2363]" name="getURL" class="com.maantic.automation.tests.GBTActivityTest2"/>
-        <method signature="GBTDecisionTableTest2.getURL(java.util.Map)[pri:1, instance:com.maantic.automation.tests.GBTDecisionTableTest2@34abdee4]" name="getURL" class="com.maantic.automation.tests.GBTDecisionTableTest2"/>
-        <method signature="GBTSLATest2.getURL(java.util.Map)[pri:1, instance:com.maantic.automation.tests.GBTSLATest2@52350abb]" name="getURL" class="com.maantic.automation.tests.GBTSLATest2"/>
+        <method signature="GBTActivityTest2.getURL(java.util.Map)[pri:1, instance:com.maantic.automation.tests.GBTActivityTest2@bc57b40]" name="getURL" class="com.maantic.automation.tests.GBTActivityTest2"/>
       </group> <!-- Regression -->
     </groups>
-    <test started-at="2024-01-05T16:55:36 IST" name="GBT" finished-at="2024-01-05T17:00:35 IST" duration-ms="299602">
-      <class name="com.maantic.automation.tests.GBTDecisionTableTest2">
-        <test-method is-config="true" signature="getEnvironment(java.lang.String)[pri:0, instance:com.maantic.automation.tests.GBTDecisionTableTest2@34abdee4]" started-at="2024-01-05T16:55:36 IST" name="getEnvironment" finished-at="2024-01-05T16:55:36 IST" duration-ms="86" status="PASS">
+    <test started-at="2024-04-22T15:53:29 IST" name="GBT3" finished-at="2024-04-22T15:53:36 IST" duration-ms="7337">
+      <class name="com.maantic.automation.tests.GBTActivityTest2">
+        <test-method is-config="true" signature="getEnvironment(java.lang.String)[pri:0, instance:com.maantic.automation.tests.GBTActivityTest2@bc57b40]" started-at="2024-04-22T15:53:29 IST" name="getEnvironment" finished-at="2024-04-22T15:53:29 IST" duration-ms="115" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -28,7 +24,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getEnvironment -->
-        <test-method is-config="true" signature="initializeDriver(java.lang.String)[pri:0, instance:com.maantic.automation.tests.GBTDecisionTableTest2@34abdee4]" started-at="2024-01-05T16:55:36 IST" name="initializeDriver" finished-at="2024-01-05T16:55:40 IST" duration-ms="3805" status="PASS">
+        <test-method is-config="true" signature="initializeDriver(java.lang.String)[pri:0, instance:com.maantic.automation.tests.GBTActivityTest2@bc57b40]" started-at="2024-04-22T15:53:30 IST" name="initializeDriver" finished-at="2024-04-22T15:53:36 IST" duration-ms="5673" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -39,139 +35,158 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initializeDriver -->
-        <test-method signature="getURL(java.util.Map)[pri:1, instance:com.maantic.automation.tests.GBTDecisionTableTest2@34abdee4]" started-at="2024-01-05T16:55:40 IST" name="getURL" description="fetch URL" data-provider="ExcelTestDataLogin" finished-at="2024-01-05T16:55:40 IST" duration-ms="32" status="PASS">
+        <test-method signature="getURL(java.util.Map)[pri:1, instance:com.maantic.automation.tests.GBTActivityTest2@bc57b40]" started-at="2024-04-22T15:53:36 IST" name="getURL" description="fetch URL" data-provider="ExcelTestDataLogin" finished-at="2024-04-22T15:53:36 IST" duration-ms="357" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[{AppDetails=getURL, Username=Navneet, URL=https://bfs.maanticpegaservices.com/prweb, Password=rules}]]>
+                <![CDATA[{AppDetails=getURL, Username=Navneet, URL=https://bfs.maanticpegaservices.com/prweb/app/banking-customer-service_, Password=rules}]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getURL -->
-        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:com.maantic.automation.tests.GBTDecisionTableTest2@34abdee4]" started-at="2024-01-05T16:55:40 IST" name="closeBrowser" finished-at="2024-01-05T16:55:40 IST" duration-ms="108" status="PASS">
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:com.maantic.automation.tests.GBTActivityTest2@bc57b40]" started-at="2024-04-22T15:53:36 IST" name="closeBrowser" finished-at="2024-04-22T15:53:36 IST" duration-ms="24" status="FAIL">
+          <exception class="org.openqa.selenium.NoSuchSessionException">
+            <message>
+              <![CDATA[Session ID is null. Using WebDriver after calling quit()?
+Build info: version: '4.16.1', revision: '9b4c83354e'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.5'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [null, close {}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 124.0.6367.61, chrome: {chromedriverVersion: 124.0.6367.60 (8771130bd84f..., userDataDir: C:\Users\User\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55900}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:55900/devtoo..., se:cdpVersion: 124.0.6367.61, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchSessionException: Session ID is null. Using WebDriver after calling quit()?
+Build info: version: '4.16.1', revision: '9b4c83354e'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.5'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [null, close {}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 124.0.6367.61, chrome: {chromedriverVersion: 124.0.6367.60 (8771130bd84f..., userDataDir: C:\Users\User\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55900}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:55900/devtoo..., se:cdpVersion: 124.0.6367.61, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:152)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:200)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:175)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:523)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:596)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:600)
+at org.openqa.selenium.remote.RemoteWebDriver.close(RemoteWebDriver.java:410)
+at com.maantic.automation.tests.GBTActivityTest2.closeBrowser(GBTActivityTest2.java:98)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:62)
+at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:385)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:321)
+at org.testng.internal.TestInvoker.runConfigMethods(TestInvoker.java:700)
+at org.testng.internal.TestInvoker.runAfterGroupsConfigurations(TestInvoker.java:676)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:660)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchSessionException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowser -->
-        <test-method is-config="true" signature="initializeDriver(java.lang.String)[pri:0, instance:com.maantic.automation.tests.GBTDecisionTableTest2@34abdee4]" started-at="2024-01-05T16:55:40 IST" name="initializeDriver" finished-at="2024-01-05T16:55:43 IST" duration-ms="3099" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[chrome]]>
-              </value>
-            </param>
-          </params>
+        <test-method is-config="true" signature="initializeDriver(java.lang.String)[pri:0, instance:com.maantic.automation.tests.GBTActivityTest2@bc57b40]" started-at="2024-04-22T15:53:36 IST" name="initializeDriver" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1713781416883" status="SKIP">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initializeDriver -->
-        <test-method signature="Decision_Table()[pri:2, instance:com.maantic.automation.tests.GBTDecisionTableTest2@34abdee4]" started-at="2024-01-05T16:55:43 IST" name="Decision_Table" finished-at="2024-01-05T16:57:07 IST" duration-ms="83915" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Decision_Table -->
-        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:com.maantic.automation.tests.GBTDecisionTableTest2@34abdee4]" started-at="2024-01-05T16:57:07 IST" name="closeBrowser" finished-at="2024-01-05T16:57:07 IST" duration-ms="128" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- closeBrowser -->
-        <test-method is-config="true" signature="resultSheet()[pri:0, instance:com.maantic.automation.tests.GBTDecisionTableTest2@34abdee4]" started-at="2024-01-05T17:00:35 IST" name="resultSheet" finished-at="2024-01-05T17:00:40 IST" duration-ms="5036" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- resultSheet -->
-      </class> <!-- com.maantic.automation.tests.GBTDecisionTableTest2 -->
-      <class name="com.maantic.automation.tests.GBTSLATest2">
-        <test-method is-config="true" signature="initializeDriver(java.lang.String)[pri:0, instance:com.maantic.automation.tests.GBTSLATest2@52350abb]" started-at="2024-01-05T16:57:08 IST" name="initializeDriver" finished-at="2024-01-05T16:57:11 IST" duration-ms="3081" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[chrome]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- initializeDriver -->
-        <test-method signature="getURL(java.util.Map)[pri:1, instance:com.maantic.automation.tests.GBTSLATest2@52350abb]" started-at="2024-01-05T16:57:11 IST" name="getURL" description="fetch URL" data-provider="ExcelTestDataLogin" finished-at="2024-01-05T16:57:11 IST" duration-ms="5" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[{AppDetails=getURL, Username=Navneet, URL=https://bfs.maanticpegaservices.com/prweb, Password=rules}]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- getURL -->
-        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:com.maantic.automation.tests.GBTSLATest2@52350abb]" started-at="2024-01-05T16:57:11 IST" name="closeBrowser" finished-at="2024-01-05T16:57:11 IST" duration-ms="245" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- closeBrowser -->
-        <test-method is-config="true" signature="initializeDriver(java.lang.String)[pri:0, instance:com.maantic.automation.tests.GBTSLATest2@52350abb]" started-at="2024-01-05T16:57:11 IST" name="initializeDriver" finished-at="2024-01-05T16:57:14 IST" duration-ms="3100" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[chrome]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- initializeDriver -->
-        <test-method signature="SLA()[pri:2, instance:com.maantic.automation.tests.GBTSLATest2@52350abb]" started-at="2024-01-05T16:57:14 IST" name="SLA" finished-at="2024-01-05T16:59:12 IST" duration-ms="117967" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- SLA -->
-        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:com.maantic.automation.tests.GBTSLATest2@52350abb]" started-at="2024-01-05T16:59:12 IST" name="closeBrowser" finished-at="2024-01-05T16:59:12 IST" duration-ms="184" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- closeBrowser -->
-      </class> <!-- com.maantic.automation.tests.GBTSLATest2 -->
-      <class name="com.maantic.automation.tests.GBTActivityTest2">
-        <test-method is-config="true" signature="initializeDriver(java.lang.String)[pri:0, instance:com.maantic.automation.tests.GBTActivityTest2@1a6f2363]" started-at="2024-01-05T16:59:12 IST" name="initializeDriver" finished-at="2024-01-05T16:59:15 IST" duration-ms="3010" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[chrome]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- initializeDriver -->
-        <test-method signature="getURL(java.util.Map)[pri:1, instance:com.maantic.automation.tests.GBTActivityTest2@1a6f2363]" started-at="2024-01-05T16:59:15 IST" name="getURL" description="fetch URL" data-provider="ExcelTestDataLogin" finished-at="2024-01-05T16:59:15 IST" duration-ms="2" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[{AppDetails=getURL, Username=Navneet, URL=https://bfs.maanticpegaservices.com/prweb, Password=rules}]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- getURL -->
-        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:com.maantic.automation.tests.GBTActivityTest2@1a6f2363]" started-at="2024-01-05T16:59:15 IST" name="closeBrowser" finished-at="2024-01-05T16:59:15 IST" duration-ms="142" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- closeBrowser -->
-        <test-method is-config="true" signature="initializeDriver(java.lang.String)[pri:0, instance:com.maantic.automation.tests.GBTActivityTest2@1a6f2363]" started-at="2024-01-05T16:59:15 IST" name="initializeDriver" finished-at="2024-01-05T16:59:18 IST" duration-ms="3130" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[chrome]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- initializeDriver -->
-        <test-method signature="Activity()[pri:2, instance:com.maantic.automation.tests.GBTActivityTest2@1a6f2363]" started-at="2024-01-05T16:59:18 IST" name="Activity" finished-at="2024-01-05T17:00:35 IST" duration-ms="76781" status="PASS">
+        <test-method signature="Activity()[pri:2, instance:com.maantic.automation.tests.GBTActivityTest2@bc57b40]" started-at="2024-04-22T15:53:36 IST" name="Activity" finished-at="2024-04-22T15:53:36 IST" duration-ms="0" status="SKIP">
+          <exception class="org.openqa.selenium.NoSuchSessionException">
+            <message>
+              <![CDATA[Session ID is null. Using WebDriver after calling quit()?
+Build info: version: '4.16.1', revision: '9b4c83354e'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.5'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [null, close {}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 124.0.6367.61, chrome: {chromedriverVersion: 124.0.6367.60 (8771130bd84f..., userDataDir: C:\Users\User\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55900}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:55900/devtoo..., se:cdpVersion: 124.0.6367.61, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchSessionException: Session ID is null. Using WebDriver after calling quit()?
+Build info: version: '4.16.1', revision: '9b4c83354e'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.5'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [null, close {}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 124.0.6367.61, chrome: {chromedriverVersion: 124.0.6367.60 (8771130bd84f..., userDataDir: C:\Users\User\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55900}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:55900/devtoo..., se:cdpVersion: 124.0.6367.61, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:152)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:200)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:175)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:523)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:596)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:600)
+at org.openqa.selenium.remote.RemoteWebDriver.close(RemoteWebDriver.java:410)
+at com.maantic.automation.tests.GBTActivityTest2.closeBrowser(GBTActivityTest2.java:98)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:62)
+at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:385)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:321)
+at org.testng.internal.TestInvoker.runConfigMethods(TestInvoker.java:700)
+at org.testng.internal.TestInvoker.runAfterGroupsConfigurations(TestInvoker.java:676)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:660)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchSessionException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Activity -->
-        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:com.maantic.automation.tests.GBTActivityTest2@1a6f2363]" started-at="2024-01-05T17:00:35 IST" name="closeBrowser" finished-at="2024-01-05T17:00:35 IST" duration-ms="113" status="PASS">
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:com.maantic.automation.tests.GBTActivityTest2@bc57b40]" started-at="2024-04-22T15:53:36 IST" name="closeBrowser" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1713781416912" status="SKIP">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowser -->
+        <test-method is-config="true" signature="resultSheet()[pri:0, instance:com.maantic.automation.tests.GBTActivityTest2@bc57b40]" started-at="2024-04-22T15:53:37 IST" name="resultSheet" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1713781417012" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- resultSheet -->
       </class> <!-- com.maantic.automation.tests.GBTActivityTest2 -->
-    </test> <!-- GBT -->
+    </test> <!-- GBT3 -->
   </suite> <!-- All Test Suite -->
 </testng-results>
