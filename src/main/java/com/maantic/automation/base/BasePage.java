@@ -145,8 +145,9 @@ public class BasePage {
 			destFileChannel.close();
 			Files.copy(sourcePath, destinationPath, StandardCopyOption.REPLACE_EXISTING);
 			System.out.println("Excel file copied successfully!");
-			ExcelUtils.writeOutputFileData(getRuletypeFromUser());
-
+			if (!getRuletypeFromUser().equals("ALL")) {
+				ExcelUtils.writeOutputFileData(getRuletypeFromUser());
+			}
 		} catch (IOException e) {
 			e.printStackTrace();
 			System.err.println("Error copying the Excel file: " + e.getMessage());
