@@ -6,6 +6,8 @@ import org.testng.TestListenerAdapter;
 import org.testng.TestNG;
 import org.testng.collections.Lists;
 
+import com.maantic.automation.utils.Constants;
+
 public class TestRunner {
 
 	public static void main(String[] args) {
@@ -15,7 +17,7 @@ public class TestRunner {
 //    	testng.setTestClasses(new Class[] { GBTDecisionTableTest.class });
 //    	testng.addListener(tla);
 //    	testng.run();
-    	
+		Constants.TEST_DATA_RULETYPE = args[0];
 //    	TestListenerAdapter tla = new TestListenerAdapter();
         TestNG testng = new TestNG();
         List<String> suites = Lists.newArrayList();

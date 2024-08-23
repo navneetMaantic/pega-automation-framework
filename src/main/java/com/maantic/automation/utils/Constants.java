@@ -6,6 +6,7 @@ import java.time.format.DateTimeFormatter;
 public class Constants {
 //    public static final String TEST_DATA_SHEET_PATH= System.getProperty("user.dir")+"\\src\\main\\resources\\exceltestdata\\GBT.xlsx";
 	public static final String TEST_DATA_SHEET_PATH= System.getProperty("user.dir")+"\\GBT.xlsx";
+	public static String TEST_DATA_RULETYPE = "";
 //	public static final String TEST_DATA_SHEET_PATH= "D:\\GBT\\GBT.xlsx";
 //    public static final String TEST_OUT_DATA_SHEET_PATH = "D:\\GBT\\GBT-Output\\"+ "GBT_Results_"+outFileName()+".xlsx";
     public static final String TEST_OUT_DATA_SHEET_PATH = System.getProperty("user.dir")+"\\GBT-Output\\"+ "GBT_Results_"+outFileName()+".xlsx";
