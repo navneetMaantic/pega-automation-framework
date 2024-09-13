@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite name="All Test Suite">
-    <test verbose="2" preserve-order="true" name="C:/Users/rebon/Documents/pega-automation-framework">
+    <test verbose="2" preserve-order="true" name="GBT">
     <classes>
-        <class name="com.maantic.automation.tests.SearchContactTest">
-            <methods><include name="TC_01_VerifySearchingNewlyCreatedContact"/></methods>
-        </class>
+        <class name="com.maantic.automation.tests.GBTDecisionTableTest2"></class>
+        <class name="com.maantic.automation.tests.GBTSLATest2"></class>
+        <class name="com.maantic.automation.tests.GBTActivityTest2"></class>
     </classes>
 </test>
 </suite>

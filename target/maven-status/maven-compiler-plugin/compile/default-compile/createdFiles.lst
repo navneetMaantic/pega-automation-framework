@@ -1,12 +1,12 @@
 com\maantic\automation\utils\CommonUtils.class
 com\maantic\automation\pages\ContactPage.class
-com\maantic\automation\pages\DashboardPage.class
-com\maantic\automation\utils\ExcelDataProvider.class
 com\maantic\automation\listeners\AllureListeners.class
-com\maantic\automation\utils\ExcelUtils.class
-com\maantic\automation\utils\Constants.class
 com\maantic\automation\pages\LoginPage.class
 com\maantic\automation\base\BasePage.class
 com\maantic\automation\listeners\RetryAnalyzer.class
 com\maantic\automation\listeners\CustomListeners.class
 com\maantic\automation\listeners\AnnotationTransformer.class
+com\maantic\automation\pages\DashboardPage.class
+com\maantic\automation\utils\ExcelDataProvider.class
+com\maantic\automation\utils\ExcelUtils.class
+com\maantic\automation\utils\Constants.class
